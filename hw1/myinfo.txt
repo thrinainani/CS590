@@ -1,0 +1,12 @@
+./myinfo
+Fri May 29 20:00:19 CDT 2015
+---------------------------
+System name: lightning
+User information:
+full name: Thrinai  Batchu
+log name: tb0055
+uid: 2588
+gid: 210
+HOME dir: /home/csuser/tb0055
+Default shell: /bin/bash
+-------------------------------
