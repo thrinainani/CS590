@@ -1,0 +1,10 @@
+352c352
+<                           column + (tab_size - column % tab_size);
+---
+>                           column + 100; //(tab_size - column % tab_size);
+365c365
+<                                   next_tab_column = tab;
+---
+>                                   next_tab_column = 10; //tab;
+                                                               
+

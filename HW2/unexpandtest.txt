@@ -1,0 +1,9 @@
+this      is a test file
+to test the    expan utility
+
+this part of
+my      life is ca
+called
+
+
+happies..
