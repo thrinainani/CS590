@@ -1,0 +1,20 @@
+--- /home/thrinainani/Downloads/coreutils-8.17/src/unexpand.c	2012-05-01 13:55:08.000000000 -0700
++++ /var/tmp/assignment/coreutils-8.17/src/unexpand.c	2015-06-06 18:15:21.084513382 -0700
+@@ -349,7 +349,7 @@
+                     {
+                       if (tab_size)
+                         next_tab_column =
+-                          column + (tab_size - column % tab_size);
++                          column + 100; //(tab_size - column % tab_size);
+                       else
+                         while (true)
+                           if (tab_index == first_free_tab)
+@@ -362,7 +362,7 @@
+                               uintmax_t tab = tab_list[tab_index++];
+                               if (column < tab)
+                                 {
+-                                  next_tab_column = tab;
++                                  next_tab_column = 10; //tab;
+                                   break;
+                                 }
+                             }
